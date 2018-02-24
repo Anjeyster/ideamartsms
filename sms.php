@@ -13,6 +13,7 @@ include 'lib/SMSReceiver.php';
 date_default_timezone_set("Asia/Colombo");
 
 
+echo "Sending SMS";
 /*** To be filled ****/
 
 $password= "484df3dacd1eef462c2267d53592cc7e";
@@ -39,6 +40,7 @@ try{
 */
 	$sender = new SMSSender($serverurl, $applicationId, $password);
 	
+	print_r($sender);
 	
 	//list($key, $second) = explode(" ",$content);
 	
