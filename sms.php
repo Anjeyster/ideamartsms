@@ -19,7 +19,7 @@ $password= "484df3dacd1eef462c2267d53592cc7e";
 
 $applicationId = "APP_042965";
 
-$serverurl= "https://letmehack.cf/sms/get";
+$serverurl= "https://api.dialog.lk/sms/send";
 
 
 $message = $_REQUEST['mesage'];
