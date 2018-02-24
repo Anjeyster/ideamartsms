@@ -70,7 +70,8 @@ try{
              }
 */
 
-				$sender->sendMessage($message, $address);		
+				$response = $sender->sendMessage($message, $address);		
+				echo "$response";
 
 	}catch(SMSServiceException $e){
 
